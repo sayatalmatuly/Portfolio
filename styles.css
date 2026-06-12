@@ -1,0 +1,322 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #fdf5ee;
+    font-family: "Unbounded", sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    gap: 350px;
+    padding: 0 40px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 20px;
+    gap: 80px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    opacity: 45%;
+    font-size: 17px;
+    transition: 0.3s ease;
+}
+nav ul li a:hover{
+    background-color: #E8A4A4;
+    color: #000;
+    opacity: 100%;
+    padding: 5px;
+    border-radius: 10px;
+}
+.logo{
+    gap: 10px;
+    text-decoration: none;
+    display: inline-flex;
+}
+.pink-ball{
+    width: 10px;
+    height: 10px;
+    background-color: #E8A4A4;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 7px;
+}
+.logo-text{
+    color: #000;
+    font-size: 20px;
+    gap: 5px;
+}
+.salon-mini-text{
+    display: inline-flex;
+    gap: 5px;
+    font-size: 9px;
+    margin: 80px 0 0 40px;
+    align-items: center;
+    background-color: rgba(212, 117, 106, 0.24);
+    border-radius: 30px;
+    padding: 0px 15px;
+    line-height: 1px;
+}
+#pink2{
+    margin-top: 0px;
+}
+.text-salon{
+    color: #EE8585;
+    padding-top: 2px;
+}
+.appoint-btn{
+    font-family: "Unbounded", sans-serif;
+    background-color: #000;
+    border-radius: 20px;
+    color: #faf8f6;
+    padding: 2px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: transform 0.3s ease;
+}
+.appoint-btn:hover{
+    transform: scale(1.20);
+}
+.main-text{
+    display: block;
+    font-size: 60px;
+    margin: 50px 0 0 40px;
+    animation: fadeUp 2s ease;
+}
+@keyframes fadeUp{
+    from{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.italic-text{
+    font-family: "Mulish",sans-serif;
+    font-style: italic;
+    color: #EE8585;
+    font-weight: lighter;
+}
+.description-manik{
+    display: block;
+    max-width: 450px;
+    margin: 20px 0 0 5px;
+    font-family: "Mulish", sans-serif;
+    opacity: 44%;
+    font-size: 18px;
+}
+.two-buttons{
+    display: flex;
+    margin: 30px 0 0 10px;
+    gap: 20px;
+}
+.appoint-btn3{
+    font-family: "Unbounded", sans-serif;
+    background-color: #000;
+    border-radius: 20px;
+    color: #faf8f6;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 13px;
+    margin-top: 5px;
+    transition: transform 0.3s ease;
+}
+.appoint-btn3:hover{
+    transform: scale(1.15);
+}
+.appoint-btn4{
+    background-color: #fdf5ee;
+    color: #000;
+    border: 0.5px solid #000;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 13px;
+    margin-top: 5px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+.appoint-btn4:hover{
+    transform: scale(1.15);
+}
+.hero{
+    display: flex;
+    align-items: center;
+}
+.main-images{
+    margin-left: 250px;
+    opacity: 0;
+    animation: fadeUp1 2s ease forwards;
+    animation-delay: 1s;
+}
+@keyframes fadeUp1{
+    from{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.services{
+    margin: 200px 0 0 40px;
+}
+.price-list{
+    font-family: "Mulish", sans-serif;
+    font-size: 14px;
+    color: #EE8585;
+}
+.our-services{
+    font-size: 45px;
+}
+.service-table{
+    display: flex;
+    flex-direction: column;
+    width: 1380px;
+    margin-left: 20px;
+    border-radius: 51px;
+    padding: 15px 20px;
+    background-color: #faf8f6;
+
+}
+.service-row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid #e0e0e0;
+    align-items: center;
+    transition: 0.3s ease;
+}
+.service-row:hover{
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    border-bottom: none;
+}
+.service-left{
+    display: inline-flex;
+}
+.emoji{
+    font-size: 25px;
+    margin: 20px 0 0 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+}
+.service-text{
+    margin-left: 30px;
+}
+.service-time{
+    font-size: 12px;
+    opacity: 45%;
+}
+.appointment{
+    margin-top: 300px;
+    text-align: center;
+    margin-bottom: 300px;
+}
+.staff{
+    margin: 300px 0 0 50px;
+}
+.mini-text-staff{
+    font-family: "Mulish", sans-serif;
+    font-size: 13px;
+    color: #EE8585;
+}
+.our-staff{
+    font-size: 60px;
+    display: block;
+}
+.staff-list{
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+    margin-right: 50px;
+}
+.initial-cube{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(212, 117, 106, 50%);
+    border-radius: 10px;
+    margin: 10px 0 0 15px;
+    justify-content: center;
+    text-align: center;
+    padding: 9px 10px;
+    font-size: 30px;
+    color: #D4756A;
+}
+.staff-card{
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 32px;
+    padding: 20px 20px;
+    align-items: center;
+}
+.staff-member-desc{
+    font-size: 13px;
+    font-family: "Mulish", sans-serif;
+    opacity: 60%;
+}
+.staff-skills{
+    font-size: 9px;
+    font-family: "Mulish", sans-serif;
+    color: #EE8585;
+    margin-left: 5px;
+}
+.initial-cube3{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(111, 209, 111, 0.28);
+    border-radius: 10px;
+    margin: 10px 0 0 15px;
+    justify-content: center;
+    text-align: center;
+    padding: 9px 10px;
+    font-size: 30px;
+    color: #6DB56D;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1C1917;
+    width: 100%;
+    padding: 20px 20px;
+    margin-top: 50px;
+    padding: 60px 50px;
+}
+.footer-left-text{
+    color: #fff;
+    display: flex;
+    max-width: 200px;
+    opacity: 60%;
+    font-family: "Mulish", sans-serif;
+    font-size: 15px;
+}
+.footer-right span{
+    color: white;
+    display: flex;
+    max-width: 200px;
+    flex-direction: column;
+    opacity: 0.6;
+}
+.logo-text2{
+    color: #fff;
+    font-size: 20px;
+    gap: 5px;
+}
+.mulish-footer-right{
+    font-family: "Mulish", sans-serif;
+    font-size: 15px;
+}
